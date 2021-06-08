@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kosik</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8646bcd795.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
+    <link href="css/homestyle.css" rel="stylesheet">
+    <link href="css/cart.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="wrapper">
+    <header>
+        <div class="header-container">
+            <div class="img-container">
+                <a href="index.html">
+                    <img alt="Logo3" class="logo3-img" src="img/logo3.png">
+                </a>
+            </div>
+            <div>
+                <div id="menu-btn" class="icon menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <nav class="navbar">
+                    <div class="content">
+                        <ul class="main_menu">
+                            <div id="cancel-btn" class="icon cancel-btn">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <li><a href="cake.html">Dorty</a></li>
+                            <li><a href="icecream.html">Zmrzliny</a></li>
+                            <li><a href="dess.html">Dezerty</a></li>
+                            <li><a href="contact.html">Kontakty</a></li>
+                            <li><a href="aboutus.html">O nás</a></li>
+                            <li>
+                                <a href="cart.html">
+                                    <img alt="Logo" class="nav-icon" src="img/shopping-basket-solid.svg">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+</div>
+
+<script src="js/navbar.js"></script>
+
+<div class="shopping-cart">
+    <!-- Title -->
+    <div class="title">
+        Nakupni kosik
+    </div>
+
+    <div class="item">
+        <div class="buttons">
+            <span class="delete-btn"></span>
+            <span class="like-btn"></span>
+        </div>
+
+        <div class="image">
+            <img src="img/cake7.jpg" alt="" />
+        </div>
+
+        <div class="description">
+            <span>Cheesecake</span>
+            <span>Bball High</span>
+            <span>White</span>
+        </div>
+
+        <div class="quantity">
+            <button class="plus-btn" type="button" name="button">
+                <img src="img/plus.svg" alt="" />
+            </button>
+            <input type="text" name="name" value="1">
+            <button class="minus-btn" type="button" name="button">
+                <img src="img/minus.svg" alt="" />
+            </button>
+        </div>
+        <div class="total-price">20 Kč</div>
+    </div>
+
+    <div class="product-price">
+        <span>Celkova cena: 20 Kč</span>
+        <a href="checkout.html" class="cart-btn">Přidat do košíku</a>
+    </div>
+</div>
+<script src="js/cart.js"></script>
+<!-- Footer -->
+<footer id="footer">
+    <i class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fas fa-envelope"></i>
+    <p>© Copyright 2021</p>
+</footer>
+
+</body>
+</html>

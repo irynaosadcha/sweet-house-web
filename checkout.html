@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Podtvrdit objednavku</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8646bcd795.js" crossorigin="anonymous"></script>
+    <link href="css/homestyle.css" rel="stylesheet">
+    <link href="css/checkout.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="wrapper">
+    <header>
+        <div class="header-container">
+            <div class="img-container">
+                <a href="index.html">
+                    <img alt="Logo3" class="logo3-img" src="img/logo3.png">
+                </a>
+            </div>
+            <div>
+                <div id="menu-btn" class="icon menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <nav class="navbar">
+                    <div class="content">
+                        <ul class="main_menu">
+                            <div id="cancel-btn" class="icon cancel-btn">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <li><a href="cake.html">Dorty</a></li>
+                            <li><a href="icecream.html">Zmrzliny</a></li>
+                            <li><a href="dess.html">Dezerty</a></li>
+                            <li><a href="contact.html">Kontakty</a></li>
+                            <li><a href="aboutus.html">O nás</a></li>
+                            <li>
+                                <a href="cart.html">
+                                    <img alt="Logo" class="nav-icon" src="img/shopping-basket-solid.svg">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+</div>
+
+<script src="js/navbar.js"></script>
+
+<div class="row">
+    <div class="col-75">
+        <div class="container">
+            <div class="title">Adresa dorucovani</div>
+            <form>
+                <div class="row">
+                    <div class="col-50">
+                        <label for="fname"><i class="fa fa-user"></i> Jmeno</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Zadejte vase jmeno a prijmeni">
+                        <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                        <input type="text" id="email" name="email" placeholder="Zadejte vaše emailovou adresu">
+                        <label for="adr"><i class="fa fa-address-card-o"></i> Adresa doruceni</label>
+                        <input type="text" id="adr" name="address" placeholder="Zadejte adresu kam to dorucime">
+                        <label for="city"><i class="fa fa-institution"></i> Město</label>
+                        <input type="text" id="city" name="city" placeholder="Zadejte město">
+                    </div>
+                </div>
+                <input type="button" value="Zpet" class="btn" onclick="location.href='cart.html';">
+                <input type="button" value="Pokracovat v nakupu" class="btn" onclick="location.href='paymentDetail.html';">
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <i class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fas fa-envelope"></i>
+    <p>© Copyright 2021</p>
+</footer>
+</body>
+</html>

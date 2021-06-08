@@ -1,0 +1,14 @@
+.container {
+    overflow: hidden;
+}
+
+.spread {
+    margin: 0 auto;
+    max-width: 1028px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    padding-bottom: 300px;
+    padding-left: 10px;
+}
+
